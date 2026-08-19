@@ -12,15 +12,16 @@ export default function Counter() {
     }
 
     return (
-        <>
+        <div className="block">
             <h2>Counter: {counter}</h2>
-            <button onClick={handleClick} className="ok-button">
-                Increment Counter
-            </button>
-
-            <button onClick={resetCounter} className="ok-button">
-                Reset Counter
-            </button>
-        </>
+            <div className="side-by-side">
+                <button onClick={handleClick} className="ok-button">
+                    Increment Counter
+                </button>
+                <button onClick={resetCounter} className="ok-button">
+                    Reset Counter
+                </button>
+            </div>
+        </div>
     )
 }
