@@ -1,4 +1,5 @@
 import { SingleTag, MultiTag, MultiTagFragment } from "./FirstComponent"
+import StyleComponent from "./styles/StyleComponent"
 
 function App() { // a component
   return (
@@ -6,6 +7,8 @@ function App() { // a component
       <SingleTag />
       <MultiTag />
       <MultiTagFragment />
+      <hr className="section" />
+      <StyleComponent />
     </div>
     
   )

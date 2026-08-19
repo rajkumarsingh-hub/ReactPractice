@@ -4,7 +4,7 @@ export function SingleTag() {
 
 export function MultiTag() {
     return ( // Adjacent JSX elements must be wrapped in an enclosing tag.
-      <fieldset>
+      <fieldset className="group-box">
         <legend>Group</legend>
   
         <p>Multiple tags in div</p>
@@ -16,7 +16,7 @@ export function MultiTag() {
 export function MultiTagFragment() {
     return ( // <> </> - JSX fragment helps to wrap multiple elements without creating additional DOM component
       <>
-      <fieldset>
+      <fieldset className="group-box">
         <legend>Group</legend>
   
         <p>Multiple tags in div fragment</p>
