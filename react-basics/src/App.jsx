@@ -1,5 +1,5 @@
-import { SingleTag, MultiTag, MultiTagFragment } from "./FirstComponent"
-import StyleComponent from "./styles/StyleComponent"
+import { SingleTag, MultiTag, MultiTagFragment } from "./components/FirstComponent"
+import StyleComponent from "./components/StyleComponent"
 
 function App() { // a component
   return (
