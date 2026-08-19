@@ -2,6 +2,7 @@ import { SingleTag, MultiTag, MultiTagFragment } from "./components/FirstCompone
 import FoodMenu from "./components/RecipeListComponent"
 import FirstButton from "./components/EventHandlingComponent"
 import StyleComponent from "./components/StyleComponent"
+import Counter from "./components/CounterComponent"
 
 function App() { // a component
   return (
@@ -22,6 +23,8 @@ function App() { // a component
         <td>
           <div className="centered">
             <FirstButton />
+            <hr className="section" />
+            <Counter />
             <hr className="section" />
           </div>
         </td>
