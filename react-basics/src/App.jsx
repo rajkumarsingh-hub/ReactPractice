@@ -1,4 +1,5 @@
 import { SingleTag, MultiTag, MultiTagFragment } from "./components/FirstComponent"
+import FoodMenu from "./components/RecipeListComponent"
 import StyleComponent from "./components/StyleComponent"
 
 function App() { // a component
@@ -9,6 +10,8 @@ function App() { // a component
       <MultiTagFragment />
       <hr className="section" />
       <StyleComponent />
+      <hr className="section" />
+      <FoodMenu />
     </div>
     
   )
