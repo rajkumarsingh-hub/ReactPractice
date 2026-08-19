@@ -3,6 +3,7 @@ import FoodMenu from "./components/RecipeListComponent"
 import FirstButton from "./components/EventHandlingComponent"
 import StyleComponent from "./components/StyleComponent"
 import Counter from "./components/CounterComponent"
+import ButtonContainer from "./components/ButtonContainerComponent"
 
 function App() { // a component
   return (
@@ -22,9 +23,15 @@ function App() { // a component
         </td>
         <td>
           <div className="centered">
-            <FirstButton />
+            <div>
+              <FirstButton />
+            </div>
             <hr className="section" />
-            <Counter />
+            <div>
+              <Counter />
+            </div>
+            <hr className="section" />
+            <ButtonContainer />
             <hr className="section" />
           </div>
         </td>
