@@ -6,6 +6,7 @@ import Counter from "./components/CounterComponent"
 import ButtonContainer from "./components/ButtonContainerComponent"
 import TicTacToeGame from "./components/TicTacToeGame"
 import TicTacToeGame4x4 from "./components/TicTacToeGame4x4.jsx"
+import TicTacToeGame5x5 from "./components/TicTacToeGame5x5.jsx"
 
 function App() { // a component
   return (
@@ -24,6 +25,7 @@ function App() { // a component
             <FoodMenu />
           </div>
         </td>
+
         <td>
           <div className="centered">
               <FirstButton />
@@ -35,6 +37,13 @@ function App() { // a component
             <TicTacToeGame />
             <hr className="section" />
             <TicTacToeGame4x4 />
+          </div>
+        </td>
+
+        <td>
+          <div className="centered">
+            <TicTacToeGame5x5 />
+            <hr className="section" />
           </div>
         </td>
       </tr>
