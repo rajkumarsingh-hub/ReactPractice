@@ -5,6 +5,7 @@ import StyleComponent from "./components/StyleComponent"
 import Counter from "./components/CounterComponent"
 import ButtonContainer from "./components/ButtonContainerComponent"
 import TicTacToeGame from "./components/TicTacToeGame"
+import TicTacToeGame4x4 from "./components/TicTacToeGame4x4.jsx"
 
 function App() { // a component
   return (
@@ -25,18 +26,15 @@ function App() { // a component
         </td>
         <td>
           <div className="centered">
-            <div>
               <FirstButton />
-            </div>
             <hr className="section" />
-            <div>
-              <Counter />
-            </div>
+            <Counter />
             <hr className="section" />
             <ButtonContainer />
             <hr className="section" />
             <TicTacToeGame />
             <hr className="section" />
+            <TicTacToeGame4x4 />
           </div>
         </td>
       </tr>
