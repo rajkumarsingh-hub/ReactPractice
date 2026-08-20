@@ -4,10 +4,13 @@ import FirstButton from "./components/EventHandlingComponent"
 import StyleComponent from "./components/StyleComponent"
 import Counter from "./components/CounterComponent"
 import ButtonContainer from "./components/ButtonContainerComponent"
+import { Board } from "./components/TicTacToeGame"
+//import TicTacToeGame from "./components/TicTacToeGame"
 
 function App() { // a component
   return (
     <table>
+      <tbody>
       <tr>
         <td>
           <div>
@@ -33,9 +36,13 @@ function App() { // a component
             <hr className="section" />
             <ButtonContainer />
             <hr className="section" />
+            {/* <TicTacToeGame /> */}
+            <Board />
+            <hr className="section" />
           </div>
         </td>
       </tr>
+      </tbody>
     </table>
     
   )
